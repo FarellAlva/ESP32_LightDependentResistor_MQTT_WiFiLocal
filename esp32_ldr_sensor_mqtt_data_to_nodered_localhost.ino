@@ -6,11 +6,11 @@ const int LDRPin = 34;
 const int LEDPin = 27;   
 
 // SSID dan password WiFi
-const char* ssid = "okyy";
-const char* password = "123456aerrrr";
+const char* ssid = "wifi";
+const char* password = "password";
 
 // Pengaturan broker MQTT
-const char* mqtt_server = "192.168.82.92";  
+const char* mqtt_server = "192.168.(your ip local host)";  
 const int mqtt_port = 1883;                
 //NO PASSWORD
 WiFiClient espClient;
